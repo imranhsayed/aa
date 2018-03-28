@@ -1,0 +1,40 @@
+.text-box {
+	border: 1px solid #FFDB36;
+	display: inline-block;
+	position: absolute;
+}
+
+.text-box-wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 100px;
+}
+
+.text-box-wrapper .container {
+	padding: 0;
+}
+
+
+@media (max-width: 1200px) {
+	.text-box-wrapper {
+		padding: 67px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.text-box-wrapper {
+		padding-left: 67px;
+		padding-right: 67px;
+		padding-bottom: 74px;
+		padding-top: 74px;
+	}
+}
+
+@media (max-width: 1148px) {
+	.text-box-wrapper {
+		padding-left: 53px;
+		padding-right: 53px;
+		padding-bottom: 74px;
+		padding-top: 74px;
+	}
+}

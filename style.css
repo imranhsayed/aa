@@ -1,0 +1,60 @@
+.banner, .section-1, .section-2 {
+	background: #63baa2;
+}
+
+.section-1 {
+	padding-bottom: 165px;
+	background-color: #f45908;
+	padding: 80px 0px;
+	height: 1500px;
+	background-image: url('back.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   font-family: 'Cuprum', sans-serif;
+   font-weight: 700;
+}
+
+.blink
+{
+	 animation: blink 1s;
+	 animation-iteration-count: 1;
+}
+
+ @-webkit-keyframes blink {
+          67% { opacity: 0 }
+         }
+ 
+         @keyframes blink {
+         67% { opacity: 0 }
+        }
+
+.section-1 p
+{
+	
+	font-weight: bold;
+	font-style: italic;
+	font-size: 50px;
+	color: #ffd600;
+	text-align: center;
+	line-height: 40PX;
+
+
+}
+
+.section-3 {
+	background: #fbd249;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.banner-top, .banner-bottom {
+	margin-bottom: 0;
+}
+
+.footer {
+	background: #bc502c;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Applause Applause</title>
+	<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/heading-animation.css">
+	<link href='https://fonts.googleapis.com/css?family=Cuprum:700italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+	
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	var s = document.getElementsByTagName("p"),
+		i,j;
+
+	for (i = 2, j = 550; i <= 30; i++, j +=50)
+		if (document.body.scrollTop > j || document.documentElement.scrollTop > j) {
+			console.log('test');
+			s[i].style.display = "block";
+			s[i].style.transition="top 1s";
+		} else {
+			s[i].style.display = "none";
+		}
+
+	 if (document.body.scrollTop > 1100 || document.documentElement.scrollTop > 1100) {
+	       console.log('test');
+	       s[13].style.display = "none";
+	       s[13].style.display = "block";
+	       s[i].style.transition="top 1s";
+	    } else {
+	        s[i].style.display = "none";
+
+		}
+}
+</script>
+
+</head>
+<body>
+
+<section class="banner mti-banner">
+	<div class="row no-gutters">
+		<div class="text-box-wrapper">
+			<div class="container">
+				<div class="banner-inner">
+					<img src="img/applause.png" alt="Applause Applause" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-1">
+	<div class="container">
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8" id="pa">
+		<p>WE ARE A CREATIVE</p>	
+		<p>DIGITAL STUDIO <p>THAT<p></p>
+		<P>TURNS YOUR BUSINESS</p>
+			<p>INTO A BRAND, AND </p>
+			<p>YOUR BRAND INTO A</p>
+			<p>CONVERSATION. </p>
+			<p>WHETHER YOU’RE OUT</p>
+			<p>TO TAKE OVER THE </p>
+			<p>WORLD OR MAKE A </p>
+			<p>DENT IN THE UNIVERSE</p>
+			<p>WE ENSURE THAT </p>
+			<p>YOUR MISSION GETS A</p>
+			<p>STANDING OVATION. </p><br><br>
+
+			<p>A NAME SO NICE</p>
+			<p>YOU TYPE IT TWICE. </p>
+			
+
+		<div id="inner-section">
+			
+		</div>
+	
+		</div>
+		<div class="col-sm-2"></div>
+	</div>	
+</div>
+<div class="div-wrapper">
+	<img src="img/Rotation.gif" width="100%" >
+</div>
+
+		
+	</div>
+</section>
+
+
+
+
+
+<footer class="footer"></footer>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery-min.js"></script>
+
+</body>
+</html>
